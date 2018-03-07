@@ -1,0 +1,61 @@
+body {
+	background: url('http://hddesktopwallpapers.in/wp-content/uploads/2015/06/football-wallpapers-hd.jpg') no-repeat fixed;
+  background-size: cover;
+  font-family: 'Istok Web', sans-serif;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.form-group {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.form-group > h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 20px;
+}
+
+.form-group > input {
+	margin-right: 20px;
+	width: 80%;
+}
+
+.player-container {
+	background-color: #fff;
+	width: 80%;
+	margin: 20px auto;
+  border-radius: 5px;
+}
+
+.player-container > h4 {
+	padding: 20px;
+  margin: 0;
+  background-color: #0984e3;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+}
+
+.player-container > div {
+	display: flex;
+	padding: 20px;
+}
+
+.player-container > div > img {
+	width: 300px;
+	height: 300px;
+}
+
+.player-container > div > p {
+	margin-left: 20px;
+	width: 80%;
+}
+
