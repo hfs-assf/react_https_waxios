@@ -16,6 +16,7 @@ export default class App extends React.Component {
 		.then(res => this.setState({data: res.data.player}))
 		.catch(err => console.log(err))
 	render = () =>
+	
 		<div id="app">
 			<div className="form-group">
 				<h1>{`Daftar Pemain ${this.state.search}`}</h1>
